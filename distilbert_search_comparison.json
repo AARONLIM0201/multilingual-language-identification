@@ -1,0 +1,31 @@
+{
+  "random_search": {
+    "n_trials": 10,
+    "best_val_acc": 99.77777777777777,
+    "best_trial": 2,
+    "mean_val_acc": 99.68444444444444,
+    "std_val_acc": 0.06772817452244372,
+    "best_config": {
+      "learning_rate": 3e-05,
+      "batch_size": 8.0,
+      "num_epochs": 4.0,
+      "weight_decay": 0.05
+    }
+  },
+  "grid_search": {
+    "n_configs": 24,
+    "best_val_acc": 99.82222222222222,
+    "best_config_num": 9,
+    "mean_val_acc": 99.62407407407409,
+    "std_val_acc": 0.1263750633906276,
+    "best_config": {
+      "learning_rate": 2e-05,
+      "batch_size": 8.0,
+      "num_epochs": 2.0,
+      "weight_decay": 0.0
+    }
+  },
+  "overall_winner": "GRID SEARCH",
+  "best_validation_accuracy": 99.82222222222222,
+  "checkpoint_file": "distilbert_grid_best.pth"
+}

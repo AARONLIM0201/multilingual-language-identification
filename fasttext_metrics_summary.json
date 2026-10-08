@@ -1,0 +1,52 @@
+{
+  "model": "FastText (Noisy OCR Images)",
+  "test_accuracy": 98.44444444444444,
+  "train_accuracy": 100.0,
+  "val_accuracy": 98.4888888888889,
+  "per_language": {
+    "English": {
+      "precision": 0.9877883310719131,
+      "recall": 0.9706666666666667,
+      "f1_score": 0.9791526563550773,
+      "support": 750
+    },
+    "Malay": {
+      "precision": 0.9986468200270636,
+      "recall": 0.984,
+      "f1_score": 0.9912693082605776,
+      "support": 750
+    },
+    "Mandarin": {
+      "precision": 0.9677002583979328,
+      "recall": 0.9986666666666667,
+      "f1_score": 0.9829396325459318,
+      "support": 750
+    }
+  },
+  "confusion_matrix": [
+    [
+      728,
+      1,
+      21
+    ],
+    [
+      8,
+      738,
+      4
+    ],
+    [
+      1,
+      0,
+      749
+    ]
+  ],
+  "config": {
+    "epoch": 20,
+    "lr": 0.5,
+    "dim": 50,
+    "minn": 3,
+    "maxn": 6,
+    "wordNgrams": 1,
+    "loss": "softmax"
+  }
+}

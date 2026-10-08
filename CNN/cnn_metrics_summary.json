@@ -1,0 +1,49 @@
+{
+  "model": "CNN Mel-Spectrogram",
+  "test_accuracy": 73.14814814814815,
+  "per_language": {
+    "English": {
+      "precision": 0.6810344827586207,
+      "recall": 0.7314814814814815,
+      "f1_score": 0.7053571428571429,
+      "support": 108
+    },
+    "Malay": {
+      "precision": 0.7024793388429752,
+      "recall": 0.7870370370370371,
+      "f1_score": 0.74235807860262,
+      "support": 108
+    },
+    "Chinese": {
+      "precision": 0.8390804597701149,
+      "recall": 0.6759259259259259,
+      "f1_score": 0.7487179487179487,
+      "support": 108
+    }
+  },
+  "confusion_matrix": [
+    [
+      79,
+      22,
+      7
+    ],
+    [
+      16,
+      85,
+      7
+    ],
+    [
+      21,
+      14,
+      73
+    ]
+  ],
+  "config": {
+    "segment_length": 3,
+    "sample_rate": 16000,
+    "n_mels": 128,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "num_epochs": 30
+  }
+}

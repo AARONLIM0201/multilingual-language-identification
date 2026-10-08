@@ -1,0 +1,82 @@
+{
+  "Audio Only (Wav2Vec2)": {
+    "n": 1215,
+    "b_ref_correct_other_wrong": 65,
+    "c_ref_wrong_other_correct": 4,
+    "chi2_stat": 53.927536231884055,
+    "chi2_pvalue": 2.0802179596362633e-13,
+    "exact_pvalue": 3.1147468230931924e-15,
+    "ref_accuracy_count": 1205,
+    "other_accuracy_count": 1144,
+    "ref_accuracy": 0.9917695473251029,
+    "other_accuracy": 0.9415637860082304,
+    "ref_wilson_ci_95": [
+      0.9849157890987545,
+      0.995523342614505
+    ],
+    "other_wilson_ci_95": [
+      0.9269298420479521,
+      0.9534142486033679
+    ]
+  },
+  "Text Only (DistilBERT)": {
+    "n": 1215,
+    "b_ref_correct_other_wrong": 27,
+    "c_ref_wrong_other_correct": 4,
+    "chi2_stat": 17.06451612903226,
+    "chi2_pvalue": 3.6131125499798335e-05,
+    "exact_pvalue": 3.39532271027565e-05,
+    "ref_accuracy_count": 1205,
+    "other_accuracy_count": 1182,
+    "ref_accuracy": 0.9917695473251029,
+    "other_accuracy": 0.9728395061728395,
+    "ref_wilson_ci_95": [
+      0.9849157890987545,
+      0.995523342614505
+    ],
+    "other_wilson_ci_95": [
+      0.9621024804834543,
+      0.9805958980425166
+    ]
+  },
+  "Confidence-Adaptive Fusion": {
+    "n": 1215,
+    "b_ref_correct_other_wrong": 6,
+    "c_ref_wrong_other_correct": 4,
+    "chi2_stat": 0.4,
+    "chi2_pvalue": 0.5270892568655381,
+    "exact_pvalue": 0.75390625,
+    "ref_accuracy_count": 1205,
+    "other_accuracy_count": 1203,
+    "ref_accuracy": 0.9917695473251029,
+    "other_accuracy": 0.9901234567901235,
+    "ref_wilson_ci_95": [
+      0.9849157890987545,
+      0.995523342614505
+    ],
+    "other_wilson_ci_95": [
+      0.9828160017561308,
+      0.994341325332147
+    ]
+  },
+  "Accuracy-Weighted Fusion": {
+    "n": 1215,
+    "b_ref_correct_other_wrong": 20,
+    "c_ref_wrong_other_correct": 4,
+    "chi2_stat": 10.666666666666666,
+    "chi2_pvalue": 0.0010908351761252995,
+    "exact_pvalue": 0.001543879508972168,
+    "ref_accuracy_count": 1205,
+    "other_accuracy_count": 1189,
+    "ref_accuracy": 0.9917695473251029,
+    "other_accuracy": 0.9786008230452675,
+    "ref_wilson_ci_95": [
+      0.9849157890987545,
+      0.995523342614505
+    ],
+    "other_wilson_ci_95": [
+      0.9688292315236491,
+      0.9853554631897574
+    ]
+  }
+}

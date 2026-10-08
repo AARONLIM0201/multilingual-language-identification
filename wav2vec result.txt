@@ -1,0 +1,2465 @@
+[
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "Starting Grid Search Hyperparameter Tuning...\nTotal combinations: 27\n\nSearch space:\n  Learning rates: [0.0001, 0.0005, 0.001]\n  Batch sizes: [8, 16, 24]\n  Num epochs: [1, 2, 3]\n\n\n============================================================\nTrial 1: lr=0.00010, batch_size=8, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"51743c7e5bf54a06a2d5c2f3bb5d56f2\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"9439806982b14aeeadde002d3f07a8bd\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 51.32% | Val 53.09%\nBest Val Acc: 53.09%\n\n============================================================\nTrial 2: lr=0.00010, batch_size=8, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"1347b696ef53480d8c0ddedccb93d8a3\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"7935d3f866374038ac6f59acf0f501ff\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 47.75% | Val 54.94%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"a6b622b436f241829b533104eaa01baf\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"67c70e4f58324ea5904444a6634f8c81\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 65.34% | Val 62.35%\nBest Val Acc: 62.35%\n\n============================================================\nTrial 3: lr=0.00010, batch_size=8, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"39d6f746179a4e2683454fcd11f021c8\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"7128dbee54934556afe3a53b04c968f5\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 44.44% | Val 43.21%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"0a9fc812d16142a99c88116d89e698e2\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"0d3295dfa2fe459d8e96200a106bfa7b\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 58.86% | Val 67.28%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"77236ac49fe14ba0ac490930dea5e096\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"67c187899f53472ebba60689228464a8\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 71.96% | Val 64.20%\nBest Val Acc: 67.28%\n\n============================================================\nTrial 4: lr=0.00010, batch_size=16, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"157c19c030834fe1bae0fce141797837\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"8d0e4ae0a5dd4696b33cf199a609fc8d\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 35.85% | Val 45.06%\nBest Val Acc: 45.06%\n\n============================================================\nTrial 5: lr=0.00010, batch_size=16, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"96bd07e32cc442fdb8fe08f79659fecb\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"bb3703e8f7a54ff1b6c56ea8c16ac127\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 49.60% | Val 60.49%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"061fccd145bd46d4a11c95c304096700\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"7299cbe57ade422abe09606bebfa8a0e\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 52.65% | Val 59.88%\nBest Val Acc: 60.49%\n\n============================================================\nTrial 6: lr=0.00010, batch_size=16, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"9ecb20d1f4cc4c1b9c508ef899ddd391\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"3ad5a68222cc41a881079961f6af7989\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 39.42% | Val 47.53%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"70bf6dedcaae4e72b13e4631d7d29cc6\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"39bc58bf49ce4af7a67fb71c3a3f3625\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 53.31% | Val 62.96%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"5cbdec318e88445ba7e3608e2e2486f2\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"79ca80fdd44e40f08db3273d16c0a479\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 64.55% | Val 61.11%\nBest Val Acc: 62.96%\n\n============================================================\nTrial 7: lr=0.00010, batch_size=24, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"c6eee06de0b34c2ca514650652ff1fcc\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"99488566fc0b47d0acf0c87bf248d17b\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 43.52% | Val 50.00%\nBest Val Acc: 50.00%\n\n============================================================\nTrial 8: lr=0.00010, batch_size=24, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"849e3c56fbba4db4b79c2d9123377d6c\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"58331fa9494c4d50847fb62f42f8dbdd\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 42.72% | Val 46.30%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"661fb6818fd24e7e892e161d2aa9bba1\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"430c23ed30684296a40cd0aad5e9ed9b\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 59.13% | Val 58.64%\nBest Val Acc: 58.64%\n\n============================================================\nTrial 9: lr=0.00010, batch_size=24, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"aab5b0a14b414bd187928851c4444be5\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"84a8670052f144e78f0a45c16a5af9e6\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 44.05% | Val 53.70%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"5bc8ce6efd9c4b5baa8d6e460e51a566\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"44c464065c4d4b87b8cb4930d0bdc543\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 55.42% | Val 53.70%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"9426d36a02484c8dabafe363445e6eaf\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"5d154e9ab1f548d49e6bf0a11c6fa505\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 65.48% | Val 56.79%\nBest Val Acc: 56.79%\n\n============================================================\nTrial 10: lr=0.00050, batch_size=8, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"50a1c9590f11424785690d0e3551143f\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"146d804f5b6c42adb9e914e2e18cb243\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 55.69% | Val 50.62%\nBest Val Acc: 50.62%\n\n============================================================\nTrial 11: lr=0.00050, batch_size=8, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"724526e47b8448c5b6ed71e74950321d\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"07eeffa971eb48f68a0af71606457bb8\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 54.50% | Val 69.75%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"ce72a43fe450492c9cff9587c65f1821\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"b4b2652b53ea47f1a2186da55ed2aa6b\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 81.88% | Val 75.93%\nBest Val Acc: 75.93%\n\n============================================================\nTrial 12: lr=0.00050, batch_size=8, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"b0cac49238ad4a2e88cf6a0e2397cebe\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"bc9534e4da0e4d88832aa5aac2c3bd03\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 55.03% | Val 66.67%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"756ab2661a2a46d998a50fc6424d0012\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"ca720a83d37a48fe9b457f5b96edc537\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 77.78% | Val 65.43%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"8df6cd3af91645389f38b1b5d44b32bd\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"2bff0b15ea494303b8de7429058c1f10\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 87.57% | Val 79.63%\nBest Val Acc: 79.63%\n\n============================================================\nTrial 13: lr=0.00050, batch_size=16, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"38b57f5e8e464458ba5ef73dcc2e0ee3\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"57550344d1e34707bed947a36f541755\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 53.04% | Val 59.26%\nBest Val Acc: 59.26%\n\n============================================================\nTrial 14: lr=0.00050, batch_size=16, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"d9b40eeb522e4f6da1d2324d6dbfa673\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"171215e75a224affa486a139aff2b01a\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 51.32% | Val 49.38%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"3787e67ff5c043f9a1d824f1e1675b79\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"2243415f28004d3884ce19838f28ab47\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 75.00% | Val 61.11%\nBest Val Acc: 61.11%\n\n============================================================\nTrial 15: lr=0.00050, batch_size=16, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"98aee17d274c4acf9b590a94e6856b9e\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"5801e922c8194a48a4cbd02a3916f2ed\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 51.85% | Val 56.17%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"d594938fb97b4b72bcfcdde86d30f72f\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"a9d0872175de4b99ae2868cd3ac801db\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 69.97% | Val 75.31%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"bb3269994a224bc79547ac2a634f231f\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"c60e37f6807044c180bac59e34ec4885\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 80.95% | Val 74.07%\nBest Val Acc: 75.31%\n\n============================================================\nTrial 16: lr=0.00050, batch_size=24, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"543a3a5d19104ad49552e9ec676f8a5f\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"a4ba3532319849b4875207bf557a035a\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 46.69% | Val 49.38%\nBest Val Acc: 49.38%\n\n============================================================\nTrial 17: lr=0.00050, batch_size=24, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"265207d9382f40fcb0604a2ce680d8ee\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"c491d2e5c56e4992ae579bd3f0972527\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 46.69% | Val 58.64%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"32f81c116889428199cde6bbff396853\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"8a435843d3e14c978c928aaab94b9cc4\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 67.59% | Val 56.79%\nBest Val Acc: 58.64%\n\n============================================================\nTrial 18: lr=0.00050, batch_size=24, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"4289ee0032094e85a2200606d143f831\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"14c4fdf490f647d087e308ec98f3e7d3\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 44.97% | Val 45.06%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"0cc20130ca584c9f9a91dc0116884d23\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"faf0e1f04a2e413b987129eb5ed5b19d\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 68.25% | Val 72.84%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"244269c008fc4b89a5c06215aceaa66c\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"7bdb51bf480b47fe8884df02671f8e44\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 78.17% | Val 78.40%\nBest Val Acc: 78.40%\n\n============================================================\nTrial 19: lr=0.00100, batch_size=8, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"5c0d0306b4544991b105041df0e7b0b5\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"8abe2f0bfba047a394482786858dcafc\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 61.11% | Val 78.40%\nBest Val Acc: 78.40%\n\n============================================================\nTrial 20: lr=0.00100, batch_size=8, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"e1ff81ce75264b2c9804da0ac76d0c9c\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"d6abda54963d42249ddf276d4dc40d9e\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 61.51% | Val 78.40%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"e8572ea6af9a4cabac986f5721cf4d73\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"207b01c56cc9498daa582dea25eb0447\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 83.73% | Val 70.99%\nBest Val Acc: 78.40%\n\n============================================================\nTrial 21: lr=0.00100, batch_size=8, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"c407e1e127bd44aeafe700f2da713a30\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"fbaa514a804f469d8a402da66f992537\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 58.60% | Val 70.37%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"5b05d549eb8847d9baeac3a8e2b67330\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"b28d81dcc5fe432aa819c4382c617466\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 84.13% | Val 69.75%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"34c422d315c34e68bd2e211bf853065a\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/95 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"d619619e635c439481657d5ae74d2b4a\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/21 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 88.10% | Val 79.63%\nBest Val Acc: 79.63%\n\n============================================================\nTrial 22: lr=0.00100, batch_size=16, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"f3388c9ea89d45bd9e716ec5d90631fd\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"425bbca58a2e48c992c7fecf848ebb76\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 55.69% | Val 64.20%\nBest Val Acc: 64.20%\n\n============================================================\nTrial 23: lr=0.00100, batch_size=16, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"1af976a85379442c9901af11dd8c5161\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"387c532b8d3f415bbb00fe9e713479be\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 51.72% | Val 56.17%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"11e8b20bd40a45f6a9ffb5448aed5fdb\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"6f40c24911f54c7fae4a4eb64ba3bb21\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 80.69% | Val 72.22%\nBest Val Acc: 72.22%\n\n============================================================\nTrial 24: lr=0.00100, batch_size=16, epochs=3\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"7678068033134b9da7750b4a275cbc1b\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"3e8864b2bf8446c785bc39d7f4354d6b\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 53.97% | Val 72.84%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"f364b998c38a4fddae152b388b50e81b\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"e1ec5855595e4cb3b066804ca7c75f17\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 2: Train 80.29% | Val 83.95%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"b6a33bfd12d04c279126c215cb71492a\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Train:   0%|          | 0/48 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"347cd3f6bfc04efd8913ff41166ea23c\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 3 Val:   0%|          | 0/11 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 3: Train 85.05% | Val 87.04%\nBest Val Acc: 87.04%\n\n============================================================\nTrial 25: lr=0.00100, batch_size=24, epochs=1\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"5f96427b043a4deca19e78a3c1701b21\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"ac489a0fe2df4b96a3cbce970e7b94c4\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 48.02% | Val 72.84%\nBest Val Acc: 72.84%\n\n============================================================\nTrial 26: lr=0.00100, batch_size=24, epochs=2\n============================================================\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stderr",
+				"data": "Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"88eea49819f84066a2b5003a841f6dd3\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"d824e536432f4394a71c2c6b2e4de2a2\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 1 Val:   0%|          | 0/7 [00:00<?, ?it/s]"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "stream"
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.code.notebook.stdout",
+				"data": "  Epoch 1: Train 53.70% | Val 68.52%\n"
+			}
+		]
+	},
+	{
+		"metadata": {
+			"outputType": "display_data",
+			"metadata": {}
+		},
+		"outputItems": [
+			{
+				"mimeType": "application/vnd.jupyter.widget-view+json",
+				"data": "{\"model_id\":\"9590c67ed4d4461796024d9f2d7a02d4\",\"version_major\":2,\"version_minor\":0}"
+			},
+			{
+				"mimeType": "text/plain",
+				"data": "Epoch 2 Train:   0%|          | 0/32 [00:00<?, ?it/s]"
+			}
+		]
+	}
+]

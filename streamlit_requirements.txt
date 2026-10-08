@@ -1,0 +1,12 @@
+streamlit
+torch
+transformers
+safetensors
+librosa
+soundfile
+numpy
+pandas
+pillow
+matplotlib
+easyocr
+jupyter

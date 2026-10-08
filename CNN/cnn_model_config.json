@@ -1,0 +1,18 @@
+{
+  "architecture": "MelSpectrogramCNN",
+  "num_classes": 3,
+  "input_channels": 1,
+  "n_mels": 128,
+  "sample_rate": 16000,
+  "segment_length": 3,
+  "language_map": {
+    "en": 0,
+    "ms": 1,
+    "zh": 2
+  },
+  "language_names": [
+    "English",
+    "Malay",
+    "Chinese"
+  ]
+}

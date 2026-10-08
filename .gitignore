@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+fypenv/
+
+# Jupyter
+*.nbconvert.ipynb
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+tmp/
+
+# Data and caches
+Dataset/
+hf_cache/
+ocr_images/
+ocr_images_noisy/
+ffmpeg/
+Language Font/
+
+# Large model artifacts
+*.pth
+*.pt
+*.safetensors
+*.bin
+*.ckpt
+*.onnx
+best_wav2vec2_model_7p5h/
+
+# Generated runtime artifacts
+*.jobid
+*.pid
+*.err.log
+
+# VS Code / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary/local files
+tempCodeRunnerFile.py
+*.code-workspace
+
+# Unrelated coursework
+Assignment Sentiment Analysis/
+
+# Private university/project records
+Meeting Log/
+Guidebook and Reports/
+
+# Local FYP files / folders
+Gannt Chart.xlsx
+Inventex/
+Png/
+Conference Paper/
+Research Paper/
+Activation.txt
+
+# Processed text data
+fasttext_train.txt
+lang_texts_extracted.pkl
+ocr_extracted_texts.json
+
+# OCR extracted sample text
+trocr_extracted_text_samples.csv

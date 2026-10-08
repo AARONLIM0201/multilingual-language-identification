@@ -1,0 +1,23 @@
+{
+  "tuning_source": "1h",
+  "final_run_source": "7p5h",
+  "best_config": {
+    "lr": 0.00039189974186350576,
+    "batch_size": 8.0,
+    "epochs": 16.0,
+    "weight_decay": 1e-06,
+    "dropout_fc1": 0.5,
+    "dropout_fc2": 0.1,
+    "train_fraction": 0.35,
+    "val_fraction": 0.5,
+    "max_train_batches": 120.0,
+    "max_val_batches": 60.0,
+    "num_workers": 0.0,
+    "val_acc": 61.72839506172839
+  },
+  "language_names": [
+    "English",
+    "Malay",
+    "Mandarin"
+  ]
+}

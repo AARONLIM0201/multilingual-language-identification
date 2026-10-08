@@ -1,0 +1,34 @@
+{
+  "methodology": "Late Fusion Multimodal Language Identification",
+  "test_set_size": 195,
+  "unimodal_baselines": {
+    "audio": 0.3333333333333333,
+    "text": 0.9846153846153847
+  },
+  "late_fusion_strategies": {
+    "equal_weight_0_5_0_5": 0.9846153846153847,
+    "accuracy_weight_0_35_0_65": 0.9846153846153847,
+    "confidence_adaptive": 0.9846153846153847
+  },
+  "best_strategy": {
+    "name": "Equal Weight (0.5/0.5)",
+    "accuracy": 0.9846153846153847
+  },
+  "confusion_matrix": [
+    [
+      65,
+      0,
+      0
+    ],
+    [
+      3,
+      62,
+      0
+    ],
+    [
+      0,
+      0,
+      65
+    ]
+  ]
+}

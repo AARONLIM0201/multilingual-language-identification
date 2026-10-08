@@ -1,0 +1,37 @@
+{
+  "model": "Wav2Vec2 (7.5h final training)",
+  "hyperparameters": {
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "num_epochs": 3
+  },
+  "test_accuracy": 93.90946502057614,
+  "best_val_accuracy": 93.90946502057614,
+  "confusion_matrix": [
+    [
+      392,
+      12,
+      1
+    ],
+    [
+      16,
+      380,
+      9
+    ],
+    [
+      18,
+      18,
+      369
+    ]
+  ],
+  "train_history": [
+    83.06878306878306,
+    93.82716049382717,
+    94.5679012345679
+  ],
+  "val_history": [
+    83.1275720164609,
+    91.52263374485597,
+    93.90946502057614
+  ]
+}

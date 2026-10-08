@@ -1,0 +1,49 @@
+{
+  "model": "DistilBERT (distilbert-base-multilingual-cased)",
+  "test_accuracy": 99.73333333333333,
+  "best_val_accuracy": 99.77777777777777,
+  "per_language": {
+    "English": {
+      "precision": 0.9920634920634921,
+      "recall": 1.0,
+      "f1_score": 0.9960159362549801,
+      "support": 750
+    },
+    "Malay": {
+      "precision": 1.0,
+      "recall": 0.992,
+      "f1_score": 0.9959839357429718,
+      "support": 750
+    },
+    "Mandarin": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 750
+    }
+  },
+  "confusion_matrix": [
+    [
+      750,
+      0,
+      0
+    ],
+    [
+      6,
+      744,
+      0
+    ],
+    [
+      0,
+      0,
+      750
+    ]
+  ],
+  "config": {
+    "model_name": "distilbert-base-multilingual-cased",
+    "max_length": 128,
+    "batch_size": 8,
+    "num_epochs": 2,
+    "learning_rate": 5e-06
+  }
+}

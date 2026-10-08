@@ -1,0 +1,70 @@
+{
+  "tuning_source": "1h",
+  "final_run_source": "7p5h",
+  "best_config": {
+    "lr": 0.00039189974186350576,
+    "batch_size": 8.0,
+    "epochs": 16.0,
+    "weight_decay": 1e-06,
+    "dropout_fc1": 0.5,
+    "dropout_fc2": 0.1,
+    "train_fraction": 0.35,
+    "val_fraction": 0.5,
+    "max_train_batches": 120.0,
+    "max_val_batches": 60.0,
+    "num_workers": 0.0,
+    "val_acc": 61.72839506172839
+  },
+  "results": {
+    "English": {
+      "language": "English",
+      "language_id": 0,
+      "num_samples": 1350,
+      "accuracy": 54.81481481481482,
+      "classification_report": "              precision    recall  f1-score   support\n\n     English     1.0000    0.5481    0.7081      1350\n       Malay     0.0000    0.0000    0.0000         0\n    Mandarin     0.0000    0.0000    0.0000         0\n\n    accuracy                         0.5481      1350\n   macro avg     0.3333    0.1827    0.2360      1350\nweighted avg     1.0000    0.5481    0.7081      1350\n",
+      "confusion_matrix": [
+        [
+          740,
+          93,
+          517
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "model_path": "c:\\Users\\Aaron Lim\\Dropbox\\PC\\Documents\\1School\\FYP\\cnn_7p5h_best_model.pth"
+    },
+    "Mandarin": {
+      "language": "Mandarin",
+      "language_id": 2,
+      "num_samples": 1350,
+      "accuracy": 98.59259259259258,
+      "classification_report": "              precision    recall  f1-score   support\n\n     English     0.0000    0.0000    0.0000         0\n       Malay     0.0000    0.0000    0.0000         0\n    Mandarin     1.0000    0.9859    0.9929      1350\n\n    accuracy                         0.9859      1350\n   macro avg     0.3333    0.3286    0.3310      1350\nweighted avg     1.0000    0.9859    0.9929      1350\n",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          15,
+          1331
+        ]
+      ],
+      "model_path": "c:\\Users\\Aaron Lim\\Dropbox\\PC\\Documents\\1School\\FYP\\cnn_7p5h_best_model.pth"
+    }
+  }
+}
